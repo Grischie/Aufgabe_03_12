@@ -28,8 +28,9 @@ int main(){
 			scanf("%f",&einwurf);
 			if(einwurf == 1){
 				printf("\n Vielen Dank, bitte entnehmen Sie ihr Getränk.\n\n");
-			}
+			} else{
 				printf("\n False!\n\n");
+			}
 		break;
 		case 3: printf("\n Bitte werfen Sie 2,00 Euro ein: ");
 			
